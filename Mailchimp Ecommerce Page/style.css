@@ -1,0 +1,556 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Means Web",Georgia,Times,"Times New Roman",serif;
+}
+header{
+    display: block;
+    flex-direction: column;
+    font-family: Helvetica,Helvetica,Arial,Verdana,sans-serif;
+    margin: 0 auto;
+}
+.header_top{
+    background-color: white;
+    padding: 4px 16px;
+}
+.header_top ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+.header_top ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    font-size: 14px;
+}
+.header_middle{
+    background-color: #241C15;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    
+}
+.header_middle p{
+    color: white;
+    font-size: 13px;
+}
+.header_middle p a{
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px dotted;
+}
+.header_middle p a:hover{
+    border: none;
+}
+.main_header{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 16px;
+    align-items: center;
+    background-color: white;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 98%;
+  }
+  
+.menu ul{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    align-items: center;
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #241C15;
+    font-size: 13px;
+    font-weight: 600;
+}
+.menu ul li select{
+    border: none;
+    color: #241C15;
+    font-size: 13px;
+    font-weight: 600;   
+}
+.main_header_left{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.contact_num{
+    color: #241C15;
+    font-size: 13px;
+    font-weight: 600;
+}
+.login_signup{
+    display: flex;
+    gap: 10px;
+}
+.login button{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 15px 25px;
+    transition: transform 0.3s;
+  
+}
+.login button:hover{
+    border-bottom: 10px solid black;
+    transition: 0.3s;
+}
+.login button a{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    color:black;
+}
+.signup button{
+    background-color: #FFE01B;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 15px 25px;
+}
+.signup button a{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    color:black;
+}
+.marketing_library{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    padding: 16px 10px;
+}
+.marketing_library_heading p{
+    font-size: 21px;
+    padding: 5px 24px 5px 0px;
+    margin-right: 24px;
+    border-right: 1px solid;
+    
+}
+.marketing_library_heading p a{
+    text-decoration: none;
+    color: #241c15;
+}
+.marketing_library_heading p a:hover{
+    color: #148692;
+}
+
+.explore_topics select{
+    text-decoration: none;
+    border: none;
+    font-size: 16px;
+    color: #007c89;
+}
+.explore_topics select:hover{
+    color: #004E56;
+}
+.ecommerce{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 80px 0px;
+    width: 59%;
+    margin: 0 auto;
+    color: #241C15;
+}
+.ecommerce h1{
+    font-size: 46px;
+    font-weight: 400; 
+}
+.ecommerce p{
+    font-size: 24px;
+    margin-top: 16px;
+}
+.product_advice_section{
+    background-color: #F6F6F4;
+    color: #241C15;
+}
+.product_advice{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 90%;
+    padding: 80px 0px;
+   
+}
+.product_advice_image img{
+    width: 582px;
+}
+.product_advice_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 42%;
+}
+.product_advice_content h6{
+    font-size: 13px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+.product_advice_content h1{
+    font-size: 31px;
+    font-weight: 400;
+    
+}
+.product_advice_content p{
+    font-size: 20px;
+    margin-top: 16px;
+    line-height: 1.5;
+}
+.product_advice_button button{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 15px 25px;
+    margin-top: 40px;
+  
+}
+.product_advice_button button:hover{
+    border-bottom: 10px solid black;
+}
+.product_advice_button button a{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    color:black;
+}
+.ecommerce_topics{
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    margin: 0 auto;
+    padding: 80px 0px;
+   
+}
+.ecommerce_topics_heading{
+    display: flex;
+    color: #241C15;
+    flex-direction: column;
+}
+.ecommerce_topics_heading p{
+    font-size: 13px;
+    margin-bottom: 12px;
+}
+.ecommerce_topics_heading h2{
+    font-size: 24px;
+}
+.ecommerce_topics_list{
+    padding-left: 72px;
+    font-size: 13px;
+    width: 85%;
+}
+.ecommerce_topics_list ul{
+
+   column-count: 3;
+    list-style-type: none;
+    align-items: center;
+    
+}
+.ecommerce_topics_list ul li{
+    padding-bottom: 12px;
+}
+.ecommerce_topics_list ul li a{
+    text-decoration: none;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #007c89;
+
+}
+.ecommerce_topics_list ul li a:hover{
+    color: #004E56;
+}
+.ecommerce_automation{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+.ecommerce_automation_heading{
+    padding-bottom: 16px;
+    border-bottom: 1px solid;
+    margin-bottom: 16px;
+}
+.ecommerce_automation_heading h1 a{
+    text-decoration: none;
+    font-size: 38px;
+    font-weight: 400;
+    color:#241C15;
+    
+}
+.ecommerce_automation_heading h1 a:hover{
+    color: #004E56;
+}
+.case_study{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.case_study_image img{
+    width: 638px;
+}
+.case_study_content{
+    padding-left: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Graphik Web",Helvetica,Arial,Verdana,sans-serif;
+}
+.case_study_content h6{
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+.case_study_content h1{
+    margin-bottom: 8px;
+}
+.case_study_content h1 a{
+    font-size: 24px;
+    text-decoration: none;
+    color:#241C15;
+}
+.case_study_content h1 a:hover{
+    color: #004E56;
+}
+.case_study_content p{
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+.ecommerce_cards{
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 110px;
+}
+.ecommerce_cards div{
+   margin: 12px;
+}
+.ecommerce_cards div img{
+    width: 306.25px;
+    margin-bottom: 28px;
+}
+.ecommerce_cards div h6{
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+.ecommerce_cards div h1{
+    font-size: 24px;
+    margin-bottom: 8px;
+    font-weight: 400;
+}
+.ecommerce_cards div h1 a{
+    text-decoration: none;
+    color:#241C15;
+}
+.ecommerce_cards div h1 a:hover{
+    color: #004E56;
+}
+.ecommerce_cards div p{
+    font-size: 16px;
+    line-height: 1.5;
+}
+.subscribe_email_section{
+    background-color: #241C15;
+}
+.subscribe_email{
+    padding: 120px 0px;
+    width: 62.5%;
+    margin: 0 auto;
+}
+.subscribe_email_heading h1{
+    font-size: 38px;
+    text-align: center;
+    color: white;
+    margin-bottom: 24px;
+    letter-spacing: -.03125rem;
+    font-weight: 400;
+}
+.subscribe_email_input label{
+    font-size: 16px;
+    color: white;
+    margin-bottom: 4px;
+}
+.subscribe_email_input input{
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: none;
+}
+.subscribe_email_button{
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 8px;
+}
+.subscribe_email div button{
+    background-color: #FFE01B;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 15px 25px;
+}
+.subscribe_email div button a{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    color:black;
+}
+.subscribe_email div p{
+    color: white;
+    text-align: center;
+    font-size: 11px;
+}
+
+.footer_section{
+    background-color: #E7B75F;
+}
+.footer {
+ 
+    color:#241C15;
+    padding: 20px 0;
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-logo {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.footer-logo h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.footer-logo p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-links div{
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.footer-links h3 {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 12px;
+}
+
+.footer-links ul li a {
+    color:#241C15;
+   
+}
+
+.footer-links ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-social {
+    margin-bottom: 20px;
+}
+
+.footer-social a {
+    color:#241C15;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.footer-social a:hover {
+    color:#241C15;
+}
+
+.footer-social i {
+    margin: 0 5px;
+}
+
+.footer-copyright {
+    font-size: 14px;
+}
+
+@media (max-width:720px) {
+    .product_advice{
+        display: flex;
+        flex-direction: column;
+    }
+    .product_advice_content{
+        width: 100%;
+    }
+    .ecommerce_cards{
+        display: flex;
+        flex-direction: column;
+    }
+    .case_study{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+    .menu ul li{
+        display: none
+        
+    }
+    .case_study_image img{
+        width: 508px;
+    }
+    .ecommerce_topics{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .ecommerce_topics_heading{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .ecommerce_topics_list{
+        padding: 0px;
+        width: 100%;
+    }
+    .ecommerce_topics_heading{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .ecommerce_topics_heading p{
+        margin: 0px;
+    }
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
